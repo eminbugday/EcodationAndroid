@@ -41,6 +41,10 @@ public class _00_homework {
 
     run time error ile compiler error  farklari nelerdir ? ahmet kaan
 
+    3. odev math sinifi kullanilarak kullanicidan alinan  iki sayinin 4 islemi yapilacak
+    //scanner
+    //+*=/
+
 
 
     * */
