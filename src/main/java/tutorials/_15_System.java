@@ -9,11 +9,11 @@ public class _15_System {
         //System.gc(); // garbege collector
         //System.exit(0);
 
-        System.out.print("bir sonraki gelen alt satira gececek"); //print yapisi  ( sadece yazdirdik
+        System.out.print("bir sonraki gelen alt satira gececek");   //print yapisi  ( sadece yazdirdik
                                                                     // **ln olmadigi icin ayni satira yaziyor**)
                                                                     //bir sonraki satira gecmesini saglayan -ln- yapisi
 
-        System.out.println("\txxxx");  ///escape karakter ters salsh ile  t
+        System.out.println("\txxxx");   //escape karakter ters salsh ile  t
                                         // kullandik bosluk verdik bosluk verdik
 
         System.out.println("yyyy");

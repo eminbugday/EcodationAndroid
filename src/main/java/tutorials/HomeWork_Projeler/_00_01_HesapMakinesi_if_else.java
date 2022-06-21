@@ -1,8 +1,9 @@
-package tutorials;
+package tutorials.HomeWork_Projeler;
 
 import java.util.Scanner;
 
-public class _12_UserData {
+public class _00_01_HesapMakinesi_if_else {
+
 
     public static void main(String[] args) {
 
@@ -38,5 +39,6 @@ public class _12_UserData {
         else {
             System.out.println("Yanlıs secim yaptınız. Seciminizi kontrol ediniz.");
         }
+
     }
 }

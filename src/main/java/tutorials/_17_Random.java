@@ -20,7 +20,7 @@ public class _17_Random {
         // 10 tane rastgele sayi olsun
         for (int i=1; i<=10; i++);
             int sayi2=random2.nextInt(4)+1;
-            System.out.println(sayi2+" ");
+            System.out.println(sayi2+"\tfdsfsdfs ");
 
 
 
