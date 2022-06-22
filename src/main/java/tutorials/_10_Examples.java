@@ -31,7 +31,7 @@ public class _10_Examples {
         derece=10;
 
         fahrenaytacevirilmishali = (derece*9)/5+32;
-        System.out.println(fahrenaytacevirilmishali);
+        System.out.println("CEVRIME SONUCU" +fahrenaytacevirilmishali);
 
         //-3:         (5+6*2)*(43*(-2-3)+432*21)/17
 

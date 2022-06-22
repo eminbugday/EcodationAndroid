@@ -25,7 +25,5 @@ public class _21_Date {
         String format2=simpleDateFormat.format(calendar.getTime());
         System.out.println(format2);
 
-
-
     }
 }

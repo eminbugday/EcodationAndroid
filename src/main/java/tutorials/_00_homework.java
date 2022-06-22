@@ -46,6 +46,20 @@ public class _00_homework {
     //+*=/
 
 
+    4. odev    string buildir isim soyismklerimizi yazip birleestirme yapilsin diger metordlar kedimiz yapm,aya calisalim
+    tokenizerde yapin
+
+    //for ---- while  arassindaki farklar nelerdir
+
+
+    try catch
+    metotlari
+    final
+    static
+    diziler
+
+    unchecked ile checked arasindaki farklar
+
 
     * */
 }
