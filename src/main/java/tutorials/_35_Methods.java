@@ -35,4 +35,8 @@ public class _35_Methods {
         double value2=voidsizParametreli(4);
         System.out.println(value2);
         }
+
+
+
+
 }
