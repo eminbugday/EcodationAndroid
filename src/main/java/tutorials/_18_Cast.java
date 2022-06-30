@@ -1,82 +1,63 @@
 package tutorials;
 
+
 public class _18_Cast {
-
     public static void main(String[] args) {
-
 
         //Cast
         //1-) float,long
-
-        float f1=44.55f;            //float icin sonuna f koyduk
+        float f1=44.55f;
         System.out.println(f1);
 
-        float f2=(float)44.55;      //parantezli tanimladik
+        float f2= (float)44.55;
         System.out.println(f2);
 
-        long l1=1145114652l;        //sonuna l koyarak oluyor
+        long l1=1145114652l;
         System.out.println(l1);
 
-        long l2=1145114652L;        //parantezlide tanimlana biliyor sonuna L koyarakta
+        long l2=1145114652L;
         System.out.println(l2);
 
-
-        //2-) byte < short < int < long
-
+        //2-) byte < short < int <long
         byte b3=120;
-        int i3=b3;                   // veri kaybi olmaz
-        System.out.println(i3);
-
+        int i3=b3; //veri kaybý olmaz
 
         int i4=45155;
-        byte b4=(byte) i4;              //veri kaybi olacak
-        System.out.println(b4);
+        byte b4= (byte) i4; //veri kaybý olacak
 
-
-        //3-) boxing  / un boxing
-        // boxing: primitive olan bir  turu Wrapper class cevirmek demektir
-        int primitive=4115;
+        //3-) boxing /un boxing
+        // boxing: primitive olan bir türü Wrapper class çevirmek demektir
+        int primitive=45584;
         Integer wrapper=primitive;
-        System.out.println(primitive);
 
-        // unboxing: Wrapper class olan bir turu pririmitive cevirmek demektir
+
+        // unboxing: Wrapper class olan bir türü primitive çevirmek demektir
         Integer wrapper2=4515;
         int primitive2=wrapper2;
-        System.out.println(wrapper2);
 
-
-        //4-) String integer cevirmek
-        //Arastirma :  valuof ile parseint nedir aralarindaki fark nedir
-
-
+        //4-) String ==> int (çevirmek)
+        //Araþtýrma: Baver:  valueOf ile  parseInt nedir aralarýndaki farklar
         String str8="14";
 
-        //1.yol
+        //1.YOL
         int i8=Integer.valueOf(str8);
         System.out.println(i8+14);
 
-        //2.yol
+        //2.YOL
         int i9=Integer.parseInt(str8);
         System.out.println(i9+14);
 
-
-        //5-) Int  string (cevirmek)
+        //5-)  int ==> String (çevirmek)
+        //Araþtýrma: Baver:  valueOf ile  parseInt nedir aralarýndaki farklar
         int i10=25;
 
-        //1.yol
+        //1.YOL
         String str10=String.valueOf(i10);
         System.out.println(str10+14);
 
-        //2.yol
+        //2.YOL
         String str11= Integer.toString(i10);
         System.out.println(str11+14);
-
-
-
-
-
-
-
 
 
 

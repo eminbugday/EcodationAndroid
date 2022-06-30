@@ -3,30 +3,31 @@ package Enumx;
 public class EnumMainClass {
 
     public static void main(String[] args) {
-        System.out.println(Gunler.CARSAMBA);
+        //Enum java 5 ile gelmi�tir
+        // t�r g�venli�i(type safe) sa�lar
 
-        Gunler gunler=Gunler.PERSEMBE;
+        Gunler gunler = Gunler.PAZARTESI;
         System.out.println(gunler);
 
-        //ordinal sifirdan baslar
-        System.out.println("sira: "+gunler.ordinal());
+        //ordinal s�f�rdan ba�lar
+        System.out.println("S�ra: " + gunler.ordinal());
 
-        System.out.println("name: "+ gunler.name);
+        //name
+        System.out.println("name: " + gunler.name());
 
-
-        //values==> dizi
+         //values ==> dizi
         System.out.println(Gunler.values()[0]);
 
         //normal
         System.out.println(Gunler.CARSAMBA);
 
-        //stringe cevrilmis enum
-        String data=Gunler.SALI.toString();
+        //string'e cevrilmi� enum
+        String data = Gunler.SALI.toString();
         System.out.println(data);
 
-        System.out.println("#################");
-        for (Gunler temp:Gunler.values()) {
-            System.out.println(temp + " ");
+        System.out.println("******************");
+        for (Gunler temp : Gunler.values()) {
+            System.out.print(temp + " ");
         }
     }
 }

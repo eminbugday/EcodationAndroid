@@ -4,61 +4,52 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class _38_Array {
-
-    // 5 tane random sayiyi diziye atayan algoritma yazalim ekranda bu sayilari gosterecek
-    // method ile yapmak
+    //5 tane random sayýyý diziye atayan algoritma yazalým ekranda bu sayýlarý gösterelim
+    //method ile yapmak
     //dizilerle yapmak
-
     public static int[] randomArray(){
-        int []  dizi=new int[5];
-        for (int i = 0; i <5; i++) {
+        int [] dizi=new int[5];
+        for (int i = 0; i < 5; i++) {
             Random random=new Random();
             dizi[i]=random.nextInt(5)+1;
         }
+
         for (int temp:dizi) {
-            System.out.println(temp+" ");
+            System.out.print( temp+" ");
         }
         return dizi;
     }
 
 
 
-
     public static void main(String[] args) {
-        int[] arr=new int[8];
-
-        //diziler sifirinci indiste baslar
-        //5 elemanli dedik 4 tane eleman sigar diziye
-        // dizilerde indiste arada birane eleman yoksa otomatik
-        // sifir 0 veriyo o na mesela 16 sayisi verdigimiz dizi yoksa orasi sifir
-        //dizideki eleman sayisi kadar dememiz icin arr.length kullaniyoruz
-        // her seferinde dizi sayisiniz degistirmeye gerek kalmasin diye
+        /*int[] arr=new int[8];
+        //diziler sýfýrýncý indiste baþlar
         arr[0]=4;
         arr[1]=8;
-        arr[2]=16;
-        arr[6]=32;
-        arr[7]=64;
+        arr[4]=9;
+        arr[5]=5;
+        arr[6]=8;
+        arr[7]=7;*/
+
+        int[] arr= {4,8,9,5,8,7};
 
         Arrays.sort(arr);
-
-        //int[] arr= {4,8,16,32,64};    // dizileri bu yapidada kullana biliriz
-
-        //System.out.println(arr[3]);
+        //System.out.println(arr[2]);
 
         //iterative for
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i <arr.length ; i++) {
             System.out.print(arr[i]+" ");
         }
-
-        System.out.println("\n####################");
+        System.out.println("\n************************");
 
         //forEach
-        for ( int temp : arr){
+        for( int temp  : arr ){
             System.out.print(temp+" ");
         }
-
-        System.out.println("\n####################");
-
+        System.out.println("\n************************");
         //Arrays.asList(arr).forEach(System.out::println);
+        randomArray();
+
     }
 }

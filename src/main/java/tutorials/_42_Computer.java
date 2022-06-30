@@ -2,18 +2,17 @@ package tutorials;
 
 public class _42_Computer {
 
-    //ozellikler
+    //özellikler
     public String publicName;
     private String privateName;
     protected String protectName;
+     String defaultName;
 
-    String defaultName;
+   public void deneme(){
+       System.out.println(publicName);
+       System.out.println(privateName);
+       System.out.println(protectName);
+       System.out.println(defaultName);
+   }
 
-
-    public void deneme(){
-        System.out.println(publicName);
-        System.out.println(privateName);
-        System.out.println(protectName);
-        System.out.println(defaultName);
-    }
 }

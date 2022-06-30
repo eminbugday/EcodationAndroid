@@ -1,37 +1,38 @@
 package tutorials;
 
+import lombok.extern.log4j.Log4j2;
+
+
 public class _11_String {
-
     public static void main(String[] args) {
-
         //String:
-        String kelime="Android java firebase java";
-        String kelimeyeni="firebase android devamke";
+        String kelime="Android java firebase java deneme";
         System.out.println(kelime);
 
         System.out.println("bosluklari al: "+kelime.trim());
-        System.out.println("Karakter sayisi"+kelime.length());
-        System.out.println("Bosluklari al"+kelime.trim().length());
+        System.out.println("Karakter sayisi: "+kelime.length());
+        System.out.println("bosluklari al: "+kelime.trim().length());
 
-        System.out.println("Baslama:"+kelime.startsWith("h"));
-        System.out.println("Bitis:"+kelime.endsWith(" "));
+        System.out.println("Başlama: "+kelime.startsWith("k"));
+        System.out.println("Bitis: "+kelime.endsWith(" "));
 
-        System.out.println("Kucuk karakter: "+kelime.toLowerCase());
-        System.out.println("Buyu karakter: "+kelime.toUpperCase());
+        System.out.println("Küçük karakter: "+kelime.toLowerCase());
+        System.out.println("Büyük karakter: "+kelime.toUpperCase());
 
         System.out.println("ilk karakter "+kelime.charAt(0));
-        System.out.println("indexof "+kelime.indexOf("java"));
-        System.out.println("lastindexof "+kelime.lastIndexOf("java"));
+        System.out.println("indexOf "+kelime.indexOf("java"));
+        System.out.println("lastIndexOf "+kelime.lastIndexOf("java"));
 
-        System.out.println("yer degistir "+kelime.replace(kelime,kelimeyeni));
-        System.out.println("kelime bulma "+kelime.contains("firebase"));
+        String kelimeYeni="Yeni Kelime";
+        System.out.println(kelime.replace(kelime,kelimeYeni));
+
+        System.out.println("Geçiyor mu "+kelime.contains("firebase"));
 
         System.out.println(kelime.substring(1));
-        System.out.println(kelime.substring(2,5));
-        System.out.println(kelime.concat("sona ekleme"));
-        System.out.println("Dolu mu bos mu: "+kelime.isEmpty());
+        System.out.println(kelime.substring(0,4));  //0<=X<= (4-1)
+        System.out.println(kelime.concat(" -sona ekleme"));  //0<=X<= (4-1)
 
-
+        System.out.println("Dolu mu Boş mu: " +kelime.isEmpty());  //0<=X<= (4-1)
 
     }
 }

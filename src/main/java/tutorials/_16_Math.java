@@ -1,28 +1,25 @@
 package tutorials;
 
 public class _16_Math {
-
     public static void main(String[] args) {
-        //Mathematic: static
+        //Mathematics: static
+        System.out.println(Math.PI);
+        System.out.println(Math.E);
 
-        System.out.println(Math.PI);  //pi sayisi
-        System.out.println(Math.E);   // e sayisi
+        System.out.println("Karekök: "+Math.sqrt(16));
+        System.out.println("Mutlak Deðer: "+Math.abs(-4));
+        System.out.println("En küçük sayý: "+Math.min(3,-99));
+        System.out.println("En büyük sayý: "+Math.max(3,-99));
+        System.out.println("Üslü sayýlar: "+Math.pow(2,5));
+        System.out.println("Rastgele sayý: "+Math.random()*4+1);
 
-        System.out.println("Karakok: "+Math.sqrt(16));              // Karakok
-        System.out.println("Mutlak Deger: "+Math.abs(-87));         // Mutlak Deger
-        System.out.println("En kucuk sayi "+Math.min(-50,-287));    // Minimum Deger
-        System.out.println("En buyuk sayi "+Math.max(-21,89));      // Maximum Deger
-        System.out.println("Uslu sayilar "+Math.pow(2,7));          // Uslu sayilar
-        System.out.println("Rastgele sayi "+Math.random()*4+1);     // Rastgele sayi
-
-        System.out.println("Asagi yuvarlamak sayi: "+Math.floor(2.9));  // Dipten geliyor zemin animsa assa yuvarliyor.
-        System.out.println("Asagi: "+Math.ceil(2.1));                   // Hep yukari yuvarliyor cebrail melekte aklimiza gelsin.
-        System.out.println("Round: "+Math.round(6.4));                  // 4 ten assasini assa yuvarliyor.
-        System.out.println("Round: "+Math.round(6.5));                  // 5 ten yukarsini yukari yuvarliyor.
-
-
-
-
+        System.out.println("Aþaðý yuvarlamak sayý: "+Math.floor(2.9));
+        System.out.println("Yuvarý yuvarlamak sayý: "+Math.ceil(2.1));
+        System.out.println("Round: "+Math.round(5.4)); //x<=4 ve aþaðýdaki aþaðý yuvarlamak
+        System.out.println("Round: "+Math.round(5.5)); //x>=5 ve yukarý  yuvarlamak
+        //ÖDEV Math sýnýfý kullanarak kullanýcýdan alýnan iki sayýnýn 4 iþlemini yapýlacak, Hesap makinesi ?
+        //Scanner
+        //+ - * /
 
     }
 }

@@ -2,49 +2,46 @@ package tutorials;
 
 public class _41_Oop {
 
-    //polymorphism = cok bicimlilik
-    //encapsulation = private
+    //polymorphism =çok biçimlilik
+    //encapsulation=private
     //abstraction = abstract+interface
 
     //Bean
-    //POJO
+    //POJO < Bean < management Bean < CDI
 
     //access modifier
-    //public:butun pakettlerdden erisim saglanir
-    //private:sadece o classta erisim vardur
-    //protected: ayni pakeetin ayni clasinda erisim vardir farkli clasta erisim olmasi icin kalitimlamak lazim
-    //-=sadece ayni pakettekiler erisim saglaya bilir
+    //public: bütün paketlerden erişim sağlanır
+    //private sadece o classta erişim vardır
+    //protected: aynı paketin aynı classında erişim vardır farklı classta erişim olması için kalıtımlamak lazımdır
+    //-=sadece aynı pakettekiler erişim sağlayabilir.
 
-    //new: hafizada benim bir icin bir yer ac
-    //null: olan hafizayi bosaltir
-    //sifir: kapladigi bir alan vardir ancak degeri sifirdir
+    //new: hafızada benim bir için bir yer aç
+    //null: olan hafızayı boşaltır
+    //sıfır:kapladığı bir alan vardır ancak değeri sıfırdır
 
-    //overloading: asiri yukleme ayni isimdeki metotlara ancak farkli paramewterele olamalari gerekiyor
-    //ovveride: var olan kurallar yerine benim dedigim kurallar gecerli
+    //overloading:aşırı yükleme aynı isimdeki metotlara ancak farklı parametrede olmaları gerekiyor.
+    //override: var olan kurallar yerin benim söylediğim kurallar geçerlidir.
 
-
-    //return: metodu kirar
-    //break: donguyu kirar
-    //continue: devam eden 1 kere mahsusn es gec donguye devam etsin
+    //return: metotu kırar
+    //break: döngüyü kırar
+    //continue: devam eden 1 kere mahsusn es geç sonra döngüye devam etsin.
 
     //final
-    //degiskenlerde sabittik
-    //class extends edemeyizz
+    //değişkenlerde sabittik
+    //class extends edemeyiz
     //metotlarda override edemeyiz
 
-    //static new olusturmadan verilere erisim saglamak
-    //classAdi.deger
-
+    //static new oluşturmadan verilere erişim sağlamak
+    // classAdi.deger
     //instance of
 
     public static void main(String[] args) {
         _45_PencilBean bean=new _45_PencilBean();
-        if (bean instanceof _45_PencilBean) {
-            System.out.println("evet");
-        }else {
-            System.out.println("hayir");
+        if(bean instanceof _45_PencilBean){
+            System.out.println("Evet");
+        }else{
+            System.out.println("Hayır");
         }
-
     }
 
 

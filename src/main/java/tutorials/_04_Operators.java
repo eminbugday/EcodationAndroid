@@ -1,46 +1,40 @@
 package tutorials;
 
 public class _04_Operators {
-
     public static void main(String[] args) {
-        //aritmatik operator: + - * / %
-        int  sayi1,sayi2;
-        sayi1 = 60;
-        sayi2 = 40;
+        //aritmetic operator: + - * / %
+        int sayi1,sayi2;
+        sayi1=30;
+        sayi2=6;
         System.out.println(sayi1+sayi2);
         System.out.println(sayi1-sayi2);
         System.out.println(sayi1*sayi2);
         System.out.println(sayi1/sayi2);
         System.out.println(sayi1%sayi2);
 
-
-
-        //atama operator
+        //atama opereratör
         //sayi1=sayi1+12;
         sayi1+=12;
         System.out.println(sayi1);
 
-
-
         //logic operators
+       /*
+       &&=VE
+       ||=VEYA
+       !=değil
+       */
 
-        // &&=VE
-        // ||=VEYA
-        // != degil
+        //ilişkisel operatörler
+        /*
+        >
+        >=
+        <
+        <=
+        */
 
+        //işlem önceliği
+        System.out.println(  5+2*(4+6*2) );
 
-        //iliskisel operatorler
-
-        //*
-        //>
-        //>=
-        //<
-        //<=
-
-        // islem onceligi
-        System.out.println(44+70*(4+7*8));
 
     }
-
-
 }

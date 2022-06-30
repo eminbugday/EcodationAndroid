@@ -1,14 +1,11 @@
 package tutorials;
 
 public class _07_new_null_sifir {
-
-
     public static void main(String[] args) {
+        //new: hafıza(Ram) bir yer oluşturmak
 
-        //new: hafizada(Ram) bir  yer olusturmak
+        //null: var olan hafızaki yeri boşaltmak
 
-        //null: var olan hafizadaki yeri bosaltmak
-
-        //sifir: hafizada bir yer kapliyor ancak degeri sifirdir
+        //sıfır: hafızada bir yer kaplıyor ancak değeri sıfırdır
     }
 }

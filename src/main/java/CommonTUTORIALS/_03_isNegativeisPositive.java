@@ -2,18 +2,33 @@ package CommonTUTORIALS;
 
 import java.util.Scanner;
 
-public class _03_isNegativeisPositive{
+// Kullan�c� taraf�ndan al�nan bir say� negatif mi pozitif mi ?
+public class _03_isNegativeisPositive {
 
-    //kullanici tarafindan alinan bir sayi negatif mi pozitif mi?
-
-    public static void main(String[] args) {
-        Scanner klavyegiris = new Scanner(System.in);
-        System.out.println("negatif pozitif");
-        int girilensayi = klavyegiris.nextInt();
-        System.out.println(girilensayi);
-
-
+    //kullan�c�dan veri almak
+    public static int dataScanner() {
+        Scanner klavye = new Scanner(System.in);
+        System.out.println("++++++++++++++\nsay� giriniz");
+        int data = klavye.nextInt();
+        return data;
     }
 
+    //radar method
+    public static void isNumber() {
+        int number = dataScanner();
 
+        if (number >= 0) {
+            System.out.println("pozitif");
+            //System.exit(0);
+            return;
+        } else {
+            System.out.println("negatif");
+        }
+    }
+
+    public static void main(String[] args) {
+        while (true) {
+            isNumber();
+        }
+    }
 }

@@ -1,73 +1,29 @@
 package tutorials;
 
 public class _10_Examples {
-
     public static void main(String[] args) {
-
-        //ornek-1: 1. dereceden 3 bilinmeyenli denklem
+        //örnek-1: 1. 3 bilinmeyenli denklem
         //z=4x-9y
         //x=4
         //y=1
         //z=?
 
-        byte x=4;
-        byte y=1;
-        byte z= (byte) ((4*x)-(9*1));
+        int x,y,z;
+        x=4;
+        y=1;
+        z=4*x-9*y;
         System.out.println(z);
 
-        int xx,yy,zz;
-        xx=4;
-        yy=1;
-        zz=4*xx-9*yy;
-        System.out.println(z);
+        //örnek-2: Dereceyi Fahranhayt çevirelim
+        //10 derece kaç fahranhayttır ?
+        //Dereceyi fahranhayta çevirme formülü => (derece*9)/5+32
 
-
-        //ornek-2: dereceyi fahrenayta cevirelim
-        //10 derece kac fahrenayttir
-        //Dereceyi fahrenayrta cevirme formulu => (derece*9)/5+32
-
-        float fahrenaytacevirilmishali;
-        int derece;
+        int derece,fahrenhayt;
         derece=10;
+        fahrenhayt=(derece*9)/5+32;
+        System.out.println(fahrenhayt);
 
-        fahrenaytacevirilmishali = (derece*9)/5+32;
-        System.out.println("CEVRIME SONUCU" +fahrenaytacevirilmishali);
-
-        //-3:         (5+6*2)*(43*(-2-3)+432*21)/17
-
-        float hesaplisayi;
-
-        hesaplisayi=(5+6*2)*(43*(-2-3)+432*21)/17;
-        System.out.println(hesaplisayi);
-
-        //ekstra ornekler fazlada yapilanlar
-
-        //  o=(((a+b)-((d*c*e(f/e))*(e*a*f*c/c)
-
-
-        int a,b,c;
-        float d,e,f;
-
-        a=45;
-        b=44;
-        c=3543;
-        d= (float) 78.43;
-        e= (float) 434.7;
-        f= (float) 455.885;
-
-
-        float islemsonucu = ((a + b) - d * c * e / (f / e) * (e * a * f * c / c));
-        System.out.println(islemsonucu);
-
-
-
-
-
-
-
-
-
-
+        //örnek-3: 5+6*2/2+62-9 ==> Java ile hesaplıyalım ?
 
 
 

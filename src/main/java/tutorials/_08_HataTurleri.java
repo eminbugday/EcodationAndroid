@@ -6,13 +6,10 @@ public class _08_HataTurleri {
         //intx sayi=55;
 
         //logical error
-     //   int sayi=5/0;
-       // System.out.println(sayi);
+        int sayi=5/0;
+        System.out.println(sayi);
 
-
-        //run time error
-
-
+        //runtime error
 
         //compiler error
     }

@@ -1,12 +1,11 @@
 package tutorials;
 
 public class _09_SayiSistemleri {
-
     public static void main(String[] args) {
 
-        //2-8-16 ==> 10'luk tabanda karsiligi
+        //2-8-16 ==> 10'luk tabanda karşılığı
 
-        //binary; ikilik: 0 -1
+        //binary: ikilik : 0 -1
         int binary=0b000110;
         System.out.println(binary);
 
@@ -15,10 +14,10 @@ public class _09_SayiSistemleri {
         System.out.println(octal);
 
         //decimal: onluk: 0-1-2-3-4-5-6-7-8-9
-        int decimal=072530245;
+        int decimal=123456;
         System.out.println(decimal);
 
-        //onaltilik: onaltilik 0-1-2-3-4-5-6-7-8-9-a-b-c-d-e-f
+        //onaltılık: onaltılık: 0-1-2-3-4-5-6-7-8-9-a-b-c-d-e-f
         int hexadecimal=0xab52c;
         System.out.println(hexadecimal);
 
