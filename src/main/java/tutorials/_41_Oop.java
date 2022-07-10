@@ -11,7 +11,7 @@ public class _41_Oop {
 
     //access modifier
     //public: bütün paketlerden erişim sağlanır
-    //private sadece o classta erişim vardır
+    //private: sadece o classta erişim vardır
     //protected: aynı paketin aynı classında erişim vardır farklı classta erişim olması için kalıtımlamak lazımdır
     //-=sadece aynı pakettekiler erişim sağlayabilir.
 

@@ -1,19 +1,19 @@
 package tutorials;
 import java.util.Scanner;
 public class _40_MultiArrayExamples {
-    //kullanýcýdan alýncak 5 tane sayýyý diziye atayalým
-    //1-)eleman toplamlarý
-    //2-)tek sayýlarý  toplamlarý
-    //3-)çift sayýlarý  toplamlarý
-    //4-)ortalamasý
+    //kullanï¿½cï¿½dan alï¿½ncak 5 tane sayï¿½yï¿½ diziye atayalï¿½m
+    //1-)eleman toplamlarï¿½
+    //2-)tek sayï¿½larï¿½  toplamlarï¿½
+    //3-)ï¿½ift sayï¿½larï¿½  toplamlarï¿½
+    //4-)ortalamasï¿½
     public static int[] resultArray() {
         Scanner klavye = new Scanner(System.in);
-        int[] dizi = new int[5];
+        int[] dizi = new int[10];
         int sum=0,oddArray=0,evenArray=0;
         int number = 0;
 
         for (int i = 0; i <dizi.length; i++) {
-            System.out.println((i+1) + ". sayýyý giriniz");
+            System.out.println((i+1) + ". sayï¿½yï¿½ giriniz");
             number = klavye.nextInt();
             dizi[i] = number;
             sum+=dizi[i];
@@ -27,9 +27,9 @@ public class _40_MultiArrayExamples {
         for (int temp : dizi) {
             System.out.print(temp + " ");
         }
-        System.out.println("\ntoplamlarý: "+sum);
-        System.out.println("tek sayý toplamlarý: "+oddArray);
-        System.out.println("çift sayý toplamlarý: "+evenArray);
+        System.out.println("\ntoplamlarï¿½: "+sum);
+        System.out.println("tek sayï¿½ toplamlarï¿½: "+oddArray);
+        System.out.println("ï¿½ift sayï¿½ toplamlarï¿½: "+evenArray);
         return dizi;
     }
 

@@ -14,7 +14,7 @@ public class _01_Java {
         // System.out.println(k);
         System.out.println("***************************************************************");
         //String
-        String kelime = "ben Android ��reniyorum";
+        String kelime = "ben Android ogreniyorum";
         System.out.println(kelime);
         System.out.println(kelime.length());
         System.out.println(kelime.trim());
@@ -30,8 +30,8 @@ public class _01_Java {
         System.out.println(kelime.substring(1, 5)); //1<=X<4-1
         System.out.println(kelime.contains("��reniyorum")); //1<=X<4-1
         System.out.println(kelime.replace(kelime, "deneme")); //1<=X<4-1
-        System.out.println(kelime.equals("ben android ��reniyorum"));
-        System.out.println(kelime.equalsIgnoreCase("ben android ��reniyorum"));
+        System.out.println(kelime.equals("ben android ogreniyorum"));
+        System.out.println(kelime.equalsIgnoreCase("ben android ogreniyorum"));
         System.out.println("***************************************************************");
 
         //System

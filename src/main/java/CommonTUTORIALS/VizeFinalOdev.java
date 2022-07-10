@@ -2,6 +2,8 @@ package CommonTUTORIALS;
 
 public class VizeFinalOdev {
 
+
+
 // kullan�c�dan al�nan vize ve final notuna g�re ge�me(ortalama) Algoritmas�
 
 // e�er kullan�c� vize veya final 0(s�f�r) bir de�er girerse sistemden ats�n
@@ -22,3 +24,5 @@ public class VizeFinalOdev {
 // for sonsuz d�ng�     ==> for(;;) {}
 
 }
+
+
